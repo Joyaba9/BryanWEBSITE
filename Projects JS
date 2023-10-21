@@ -1,0 +1,21 @@
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const projects = document.querySelectorAll(".project");
+
+  projects.forEach((project) => {
+    project.addEventListener("mouseover", function () {
+      projects.forEach((otherProject) => {
+        if (otherProject !== project) {
+          otherProject.style.opacity = 0.3;
+        }
+      });
+    });
+
+    project.addEventListener("mouseout", function () {
+      projects.forEach((otherProject) => {
+        otherProject.style.opacity = 1;
+      });
+    });
+  });
+});
+</script>
