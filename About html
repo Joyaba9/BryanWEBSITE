@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>About Me</title>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h2>Summary</h2>
+            <p>Hello, I am Bryan Joya and I am a student at Farmingdale state college. My major is computer programming and information systems. I am currently a sophomore and halfway through obtaining my bachelor's degree. I have knowledge of many programming languages such as C++, Python, Java, SQL, and Unix Shell script. I also have knowledge of Cisco's CLI as im currently in Ciscos's networking academy. I plan to obtain my CCNA by the time I graduate. I plan to get into graduate school after to obtain a master's degree in Information Systems. </p>
+        </section>
+      <section>
+            <h1>Skills</h1>
+
+<h3>Coding languages</h3>
+<p>Experince in coding in multiple langauges such as Python, 
+C++, Java, Sql, Html, Css, and Unix Shell Scipting.</p>
+  <h3>Cisco</h3>
+<p> Experience working with and configuring Cisco equipment using Ciscos CLI. Knowlegde of multiple Ciscos protocols such as ...
+</p>
+
+        
+          </section>
+
+      
+        <section>
+            <h2>Personal Links</h2>
+            <ul>
+                <li><a href="https://github.com/username" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/username/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://twitter.com/username" target="_blank">Twitter</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Portfolio</p>
+    </footer>
+</body>
+</html>
