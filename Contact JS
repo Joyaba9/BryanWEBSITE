@@ -1,0 +1,30 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const contactForm = document.querySelector("#contact form");
+
+  contactForm.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
+
+    try {
+      const response = await fetch('/submit-form', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ name, email, message })
+      });
+
+      if (response.ok) {
+        alert('Contact info saved');
+      } else {
+        alert('Error saving contact info');
+      }
+    } catch (error) {
+      console.error('Error:', error.message);
+      alert('Error saving contact info');
+    }
+  });
+});
